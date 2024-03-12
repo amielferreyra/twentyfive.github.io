@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/twentyfive.github.io/static/css/main.b0f67048.css",
+    "main.js": "/twentyfive.github.io/static/js/main.e5ea0143.js",
+    "static/js/453.c7a2ebbe.chunk.js": "/twentyfive.github.io/static/js/453.c7a2ebbe.chunk.js",
+    "static/media/slider-1.png": "/twentyfive.github.io/static/media/slider-1.bf7393dd8633790f5b4b.png",
+    "static/media/section4-image.png": "/twentyfive.github.io/static/media/section4-image.e5a780eb689ab90c40e0.png",
+    "static/media/section3-image.png": "/twentyfive.github.io/static/media/section3-image.c68b7c059e6b7481a38e.png",
+    "static/media/contact-image.png": "/twentyfive.github.io/static/media/contact-image.c0140ae6cc040b0d2dda.png",
+    "index.html": "/twentyfive.github.io/index.html",
+    "main.b0f67048.css.map": "/twentyfive.github.io/static/css/main.b0f67048.css.map",
+    "main.e5ea0143.js.map": "/twentyfive.github.io/static/js/main.e5ea0143.js.map",
+    "453.c7a2ebbe.chunk.js.map": "/twentyfive.github.io/static/js/453.c7a2ebbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f67048.css",
+    "static/js/main.e5ea0143.js"
+  ]
+}
