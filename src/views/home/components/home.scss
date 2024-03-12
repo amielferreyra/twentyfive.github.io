@@ -1,0 +1,139 @@
+.navbar {
+    height: 14vh;
+    border-bottom: 1px solid #E0752F;
+    background-color: #343434bd;
+  
+    .navbar-brand {
+      margin-left: 100px;
+    }
+  
+    .navbar-collapse {
+      flex-grow: 0 !important;
+  
+      .nav-item {
+        margin: 1rem;
+  
+        a {
+          color: white;
+          font-size: 20px;
+        }
+  
+        a:hover {
+          color: #E0752F;
+        }
+      }
+    }
+  
+  }
+  
+  
+  
+  
+  .back-first {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../components/imagenes/slider-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      color: #ffff;
+  
+      .title {
+        font: normal normal 600 48px/48px Poppins;
+        margin-top: 158px;
+        margin-left: 101px;
+        width: 554px;
+        height: 115px;
+      }
+  
+      P {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 30px;
+        margin-left: 101px;
+        width: 343px;
+        height: 42px;
+      }
+  
+      .btn-home {
+        margin-top: 30px;
+        margin-left: 101px;
+        width: 144px;
+        height: 48px;
+        border-radius: 25px;
+        background-color: #E0752F;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+  
+        .btn {
+          margin-top: 6px;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+  
+    .imglogo {
+      max-width: 100px;
+      margin-right: 0;
+    }
+  
+  
+  
+    .navbar-collapse {
+      background-color: #343434;
+      margin-right: none !important;
+  
+      ul {
+        text-align: center;
+      }
+  
+      a {
+        font-size: white;
+        font-size: 6px;
+      }
+  
+      a:hover {
+        color: #E0752F;
+        border: 1px solid #E0752F;
+      }
+    }
+  
+    .back-first {
+      background-position: center;
+  
+      .header {
+  
+        .title {
+          margin-left: 20px;
+          width: 80%;
+          font-size: 38px;
+        }
+  
+        p {
+          margin-top: 80px;
+          margin-left: 20px;
+          width: 80%;
+        }
+  
+        .btn-home {
+          margin-top: 35px;
+          margin-left: 20px;
+          width: 120px;
+        }
+      }
+  
+    }
+  
+  }

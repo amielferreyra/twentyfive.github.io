@@ -1,0 +1,66 @@
+.content {
+    height: 100vh;
+    background-image: url(../../../components/imagenes/section4-image.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    .accordion {
+        width: 669px;
+        margin-left: 101px;
+        padding-top: 144px;
+
+        .accordion-header {
+            font-family: Roboto, medium;
+            font-size: 16px;
+        }
+
+        .accordion-body {
+            width: 669px;
+            height: 184px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                font-family: Roboto;
+                font-size: 16px;
+            }
+        }
+
+        .accordion-button {
+            background: none;
+        }
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .content {
+        height: 80vh;
+        background-image: none;
+        padding: 20px;
+        background-image: url(../../../components/imagenes/section4-image.png);
+
+        .accordion {
+            width: 100%;
+            margin-left: 0;
+            padding-top: 50px;
+
+            .accordion-header {
+                font-size: 14px;
+            }
+
+            .accordion-body {
+                width: 100%;
+                height: auto;
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+}

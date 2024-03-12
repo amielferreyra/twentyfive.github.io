@@ -1,0 +1,64 @@
+.sobre {
+    background-color: white;
+    height: 500px;
+
+    .bordecito {
+        border-left: 32px solid #E0752F;
+
+        .titlee {
+            font: normal normal 600 39px/45px Poppins;
+            margin-left: 299px;
+            margin-top: 167px;
+
+        }
+
+        span {
+            color: #E0752F;
+        }
+
+        .pad p {
+            margin-top: 44px;
+            margin-left: 299px;
+            width: 768px;
+            font-family: normal normal normal 16px/28px Roboto;
+            letter-spacing: 0.22px;
+            color: #343434;
+        }
+
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .sobre {
+        height: 90vh;
+
+
+
+        .bordecito {
+            border-left: 6px solid #E0752F;
+            height: 470px;
+
+            .titlee {
+                margin-left: 20px;
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            span {
+                color: #E0752F;
+            }
+
+            .pad p {
+                margin-top: 20px;
+                margin-left: 20px;
+                width: auto;
+                font-size: 14px;
+                line-height: 28px;
+            }
+        }
+    }
+
+
+}
